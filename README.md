@@ -1,113 +1,113 @@
-## Telepites
+## Telepítés
 
-1. Toltsd le az aktualis verziot (2.XX) [innen](http://keepass.info/download.html)
-  * Ha mas gepen, ahol nincs telepitve Keepass is szeretned hasznalni az adatbazisodat,
-    akkor toltsd le mar most a portable verziot is, ha mar ugyis ott vagy.
-    Reszletek lentebb.
-1. Telepitsd a programot
-  * az autoupdate NEM tolt le es telepit semmit sem, csak szol, h van uj verzio
-3. Inditsd el a frissen telepitett Keepass-t
+1. Töltsd le az aktuális verziót (2.XX) [innen](http://keepass.info/download.html)
+  * Ha más gépén, ahol nincs telepítve KeePass is szeretnéd használni az adatbázisodat,
+    akkor töltsd le már most a hordozható verziót is, ha már úgyis ott vagy.
+    Részletek lentebb.
+1. Telepítsd a programot
+  * az autoupdate NEM tölt le és telepít semmit sem, csak szól, hogy van új verzió
+3. Indítsd el a frissen telepített KeePass-t
 
-## Uj adatbazis
-1. Valaszd ki a __Select -> New__ (Ures feher lap az ikonja)
-2. Valaszd ki a nevet, es hogy hol legyen az adatbazis
-3. Ezek utan add meg a mesterjelszot
-  * Ezzel a jelszoval fogod tudni feloldani az osszes tobbi jelszavadat.
-    Mivel ezek utan lenyegen csak ezt az egy jelszot kell majd megjegyezned, es ez a jelszo fogja az __OSSZES__ tobbi jelszavadat vedeni
-    erdemes egy eros jelszot valasztani (mondjuk 20+ karakter, kis-nagy betu, szam, specialis karakter)
-  * Opcionalis: Keyfile keszitese:
-    * A keyfile egy masodik faktorkent szolgal.
-      Hasznalhatod a jelszo *helyett* vagy *vele egyutt*.
-      A lenyeg csak annyi, hogy sok random legyen benne.
-    * Valaszhatsz, hogy generaljon neked a Keepass egy keyfilet,
-      vagy pedig egy mar letezo filet (Word dokumentum vagy egy JPG, vagy barmi mas) legyen a keyfile 
-4. Adatbazis beallitasok:
-  * A legtobb magatol erthetodo, szoval nem nagyon mennek bele.
+## Új adatbázis
+1. Válaszd ki a __Select -> New__ (Üres fehér lap az ikonja)
+2. Válaszd ki a nevet, és hogy hol legyen az adatbázis
+3. Ezek után add meg a mesterjelszót
+  * Ezzel a jelszóval fogod tudni feloldani az összes többi jelszavadat.
+    Mivel ezek után lényegében csak ezt az egy jelszót kell majd megjegyezned, és ez a jelszó fogja az __ÖSSZES__ többi jelszavadat védeni
+    érdemes egy erős jelszót választani (mondjuk 20+ karakter, kis-nagy betű, szám, speciális karakter)
+  * Opcionális: Keyfile készítése:
+    * A keyfile egy második faktorként szolgál.
+      Hasznalhatod a jelszó *helyett* vagy *vele együtt*.
+      A lényeg csak annyi, hogy sok random legyen benne.
+    * Választatsz, hogy generáljon neked a KeePass egy keyfile-t,
+      vagy pedig egy már létező fájlt (Word dokumentum vagy egy JPG, vagy bármi más) legyen a keyfile 
+4. Adatbázis beállítások:
+  * A legtöbb magától értetődő, szóval nem nagyon mennék bele.
 
-## Pluginek
-1. A keepass rengeteg pluginnal rendelkezik. ([lasd itt](https://keepass.info/plugins.html))
-2. En lenyegeben csak a [KeePassHttp](https://keepass.info/plugins.html#keepasshttp) plugint hasznalom,
-   az osszes tobbirol gozom nincs, hogy mint csinal.
-  * Mire jo?
-    * Engedelyezi a kommunikaciot a browsered (Chrome, Safari, Firefox) es a Keepass kozott,
-      ezaltal, ha fel van rakva a megfelelo plugin a browserben, mukodik az autocomplete.
+## Plugin-ek
+1. A KeePass rengeteg plugin-nal rendelkezik. ([lásd itt](https://keepass.info/plugins.html))
+2. Én lényegében csak a [KeePassHttp](https://keepass.info/plugins.html#keepasshttp) plugin-t használom,
+   az összes többiről gőzöm nincs, hogy mint csinál.
+  * Mire jó?
+    * Engedélyezi a kommunikációt a browser-ed (Chrome, Safari, Firefox) és a KeePass között,
+      ezáltal, ha fel van rakva a megfelelő plugin a browser-ben, működik az autocomplete.
   * Hogyan rakjam fel?
     * [Olvasd el ezt](https://github.com/pfn/keepasshttp/#non-windows--manual-windows-installation)
     * TL;DR:
-      * Letoltod [ezt](https://github.com/pfn/keepasshttp/raw/master/KeePassHttp.plgx) es bemasolod a `<keepass_install_dir>\\Plugins` mappaba
-  * Hogyan frissitsem?
-    * Mivel lusta vagyok irtam egy updater scriptet, ami megcsinalja az updatet
-    * Leirast last lentebb
+      * Letöltöd [ezt](https://github.com/pfn/keepasshttp/raw/master/KeePassHttp.plgx) és bemásolod a `<keepass_install_dir>\\Plugins` mappába
+  * Hogyan frissítsem?
+    * Mivel lusta vagyok írtam egy updater script-et, ami megcsinálja az update-t
+    * Leírást lásd lentebb
 3. Browser extensions:
   * [Chrome](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae=)
   * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/passifox/)
-  * [Safari](https://github.com/mmichaa/passafari.safariextension) (ezt sosem hasznaltam meg, szoval nem tudok rola semmit)
+  * [Safari](https://github.com/mmichaa/passafari.safariextension) (ezt sosem használtam meg, szóval nem tudok róla semmit)
 4. Cloud sync
-  * en nem hasznalom, szoval sokat nem tudok rola, de itt van par link:
+  * én nem használom, szóval sokat nem tudok róla, de itt van pár link:
     * [Google Drive](https://sourceforge.net/projects/kp-googlesync/)
     * [One Drive](https://github.com/KoenZomers/KeePassOneDriveSync)
-    * Lasd meg a `Backup & Synchronization & IO` bejegyzes alatt [itt](https://keepass.info/plugins.html)
-  * __FONTOS:__ ebben az esetben mindenkeppen ajanlanam a keyfile hasznalatat mint extra security
-    * __MEG FONTOSABB: A KEYFILET NE TOLTSD FEL A CLOUDRA, MERT AKKOR ELVESZTI AZ ERTELMET!!!1!__ 
+    * Lásd még a `Backup & Synchronization & IO` bejegyzés alatt [itt](https://keepass.info/plugins.html)
+  * __FONTOS:__ ebben az esetben mindenképpen ajánlanám a keyfile használatát mint extra security
+    * __MEG FONTOSABB: A KEYFILET NE TÖLTSD FEL A CLOUDRA, MERT AKKOR ELVESZTI AZ ÉRTELMÉT!!!1!__ 
 
 ## Jelszavak
-__FONTOS:__ az hogy a jelszavad a Keepassban van, meg nem jelenti azt, hogy tenylegesen az a jelszavad mondjuk facebookon.
-Elso korben minden jelszavadat meg kell valtoztatnod egyesevel.
-Tudom, ez szar, meg unalmas, de hidd el megeri.
-1. Az add entry gombbal tudsz uj jelszot megadni.
+__FONTOS:__ az hogy a jelszavad a KeePass-ban van, még nem jelenti azt, hogy ténylegesen az a jelszavad mondjuk facebook-on.
+Első körben minden jelszavadat meg kell változtatnod egyesével.
+Tudom, ez szar, meg unalmas, de hidd el megéri.
+1. Az add entry gombbal tudsz új jelszót megadni.
 2. Adatok:
-  * Title: mi legyen a jelszo/acc neve (pl Gmail, Facebook) ez csak arra van, hogy konnyebben megtalald a megfelelo acc-ot
+  * Title: mi legyen a jelszó/acc neve (pl. Gmail, Facebook) ez csak arra van, hogy könnyebben megtaláld a megfelelő acc-ot
   * User name: evidens
   * Password:
-    * Van ket gomb az egyik, harom potty, ez megjeleniti az adott jelszot.
-    * A masik, egy kulcs, a jelszogenerator, ha rakattintasz general neked uj jelszavakat.
-      Csinalhatsz sajat jelszo generatorokat, ahol el tudod menteni a beallitasokat.
-      (Peldaul ha egy oldal nem enged bizonyos karaktereket, akkor megadhatod, hogy melyek legyenek kizarva stb.)
-    * URL: milyen URL alatt legyen ervenyes az acc (hasznos ha hasznalod a KeepassHttp plugint)
-    * Expires: megadhatod, hogy meddig legyen ervenyes a jelszo
-      * __FONTOS:__ ez nem jelenti azt, hogy a jelszavad torlodne, ha lejart, csak vizualisan jelzi neked (pirosan at van huzva), hogy lejard a jelszo
-3. Miutan generaltal uj jelszot valtoztasd meg a jelszavadat az ujra az adott szolgaltatonal (Gmail, Facebook stb.)
-4. Az elonye az egesz dolognak, hogy
-  1. Nem kell megjegyezned a jelszot
-  2. Minden acc-odnak lehet kulonbozo jelszava
+    * Van két gomb az egyik, három pötty, ez megjeleníti az adott jelszót.
+    * A masík, egy kulcs, a jelszó generátor, ha rákattintasz generál neked új jelszavakat.
+      Csinalhatsz sajat jelszó generátorokat, ahol el tudod menteni a beállítasokat.
+      (Példaul ha egy oldal nem enged bizonyos karaktereket, akkor megadhatod, hogy melyek legyenek kizárva stb.)
+    * URL: milyen URL alatt legyen érvényes az acc (hasznos ha használod a KeePassHttp plugin-t)
+    * Expires: megadhatod, hogy meddig legyen érvényes a jelszó
+      * __FONTOS:__ ez nem jelenti azt, hogy a jelszavad törlödne, ha lejárt, csak vizualisan jelzi neked (pirosan át van húzva), hogy lejárt a jelszó
+3. Miután generáltál új jelszót változtasd meg a jelszavadat az újra az adott szolgáltatónál (Gmail, Facebook stb.)
+4. Az előnye az egész dolognak, hogy
+  1. Nem kell megjegyezned a jelszót
+  2. Minden acc-odnak lehet különböző jelszava
 
 ## Android App
-Androidra az Keepass2Android App-et tudom ajanlani.
-Letoltheto [innen](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=hu)
+Androidra a KeePass2Android App-et tudom ajánlani.
+Letölthető [innen](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=hu)
 
-## Hordozhato verzio
-1. Toltsd le a hordozhato verziot [innen](http://keepass.info/download.html)
-2. Csomagold ki a ZIP-et egy pendrivera, vagy amire szeretned.
-3. Kesz
+## Hordozható verzió
+1. Töltsd le a hordozható verziót [innen](http://keepass.info/download.html)
+2. Csomagold ki a ZIP-et egy pendrive-ra, vagy amire szeretnéd.
+3. Kész
 
-Megjegyzes:
-En szemely szerint meg a kovetkezot csinaltam, mivel se a pendrive-om se a windows particiom nincs titkositva
-(tudom, shame on me, tervben van), ezert a keyfilet meg beraktam egy veracrypt kontenerbe.
-Lepesek:
-1. Toltsd le a veracrypt programot [innen](https://veracrypt.codeplex.com/wikipage?title=Downloads#Title)
-2. Telepitsd
-  * Ha ezt is szeretned hordozhato verzioban a pendriveodon tartani, hiszen maskepp nem fersz hozza a keyfilehoz,
-    akkor a telepites kozben az `Install` opcio helyett valaszd az `Extract` opciot. Add meg az utvonalat es kesz.
-3. Keszits egy containert
-  1. Create an encrypted file container
-  2. Standard veracrypt container
-  3. Add meg a container helyet
-  4. En szemely szerint az AES-t hasznalom, de mindenkinek megvan a maga kedvenc titkositasi algoritmusa, szoval amit akarsz :)
-  5. SHA-512 megfelelo szemely szerint
-  6. Add meg a meretet (mivel csak a keyfile lesz benne par MB-nel tobbre valszeg nem lesz szukseg)
-  7. Jelszo: NE a Keepassodban tarold, hacsak nem tudod kivulrol, mert a Keepass feloldasahoz kelleni fog a keyfile, a keyfile-hoz meg kelleni fogy a Keepass...
-  8. Valassz fajlrendszert (NTFS/FAT windows eseteben) aztan mozgasd az egeredet amig zold nem lesz a csik
-4. Oldd fel a containert a jelszoval
-5. Masold be a containerbe a keyfile-t (a container mint external drive van jelen a gepeden)
-6. Zard be a containert (Unmount)
-7. Masold a container fajlt a pendrive-ra
+Megjegyzés:
+Én személy szerint még a következőt csináltam, mivel se a pendrive-om se a Windows partícióm nincs titkosítva
+(tudom, shame on me, tervben van), ezért a keyfile-t még beraktam egy veracrypt konténerbe.
+Lepések:
+1. Töltsd le a veracrypt programot [innen](https://veracrypt.codeplex.com/wikipage?title=Downloads#Title)
+2. Telepítsd
+  * Ha ezt is szeretned hordozható verzióban a pendrive-odon tartani, hiszen másképp nem férsz hozza a keyfile-hoz,
+    akkor a telepites közben az `Install` opció helyett válaszd az `Extract` opciót. Add meg az útvonalat és kész.
+3. Készíts egy konténert
+  1. Create an encrypted file konténer
+  2. Standard veracrypt konténer
+  3. Add meg a konténer helyét
+  4. Én személy szerint az AES-t használom, de mindenkinek megvan a maga kedvenc titkosítási algoritmusa, szóval amit akarsz :)
+  5. SHA-512 megfelelő
+  6. Add meg a méretet (mivel csak a keyfile lesz benne pár MB-nél többre valszeg nem lesz szükség)
+  7. Jelszó: NE a KeePass-odban tárold, hacsak nem tudod kívülről, mert a KeePass feloldásához kelleni fog a keyfile, a keyfile-hoz meg kelleni fog a KeePass...
+  8. Válassz fájlrendszert (NTFS/FAT Windows esetében) aztán mozgasd az egeredet amíg zöld nem lesz a csík
+4. Oldd fel a konténert a jelszóval
+5. Másold be a konténerbe a keyfile-t (a konténer mint external drive van jelen a gépeden)
+6. Zárd be a konténert (Unmount)
+7. Másold a konténer fájlt a pendrive-ra
 
-__FONTOS:__ Ha az USB-rol inditod el a VeraCrypt-et, akkor minden alkalommal kerni fog rendszergazdai jogokat.
-Ha ez nincs megadva neki, akkor nem fog mukodni.
+__FONTOS:__ Ha az USB-ről indítod el a VeraCrypt-et, akkor minden alkalommal kérni fog rendszergazdai jogokat.
+Ha ez nincs megadva neki, akkor nem fog működni.
 
-## KeepassHttp Updater
+## KeePassHttp Updater
 Mi kell hozza?
-* Python 3.6+ (letolheto [innen](https://www.python.org/downloads/))
-* A ket letoltott file a `C:\bat\scripts` mappban van. (Ha ez neked nem szimpatikus a bat fileban atirhatod az eleresi utvonalat)
+* Python 3.6+ (letelhető [innen](https://www.python.org/downloads/))
+* A két letöltött fájl a `C:\bat\scripts` mappában van. (Ha ez neked nem szimpatikus a `update_starter.bat` fájlban átírhatod az elérési útvonalat)
 
-Futtasd az `update_starter.bat` scriptet rendszergazdakent, a tobbit bizd a pythonra ;)
+Futtasd az `update_starter.bat` scriptet rendszergazdaként, a többit bízd a python-ra ;)
