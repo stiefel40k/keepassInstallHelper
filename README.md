@@ -3,6 +3,7 @@
 1. Toltsd le az aktualis verziot (2.XX) [innen](http://keepass.info/download.html)
   * Ha mas gepen, ahol nincs telepitve Keepass is szeretned hasznalni az adatbazisodat,
     akkor toltsd le mar most a portable verziot is, ha mar ugyis ott vagy.
+    Reszletek lentebb.
 1. Telepitsd a programot
   * az autoupdate NEM tolt le es telepit semmit sem, csak szol, h van uj verzio
 3. Inditsd el a frissen telepitett Keepass-t
@@ -73,6 +74,36 @@ Tudom, ez szar, meg unalmas, de hidd el megeri.
 ## Android App
 Androidra az Keepass2Android App-et tudom ajanlani.
 Letoltheto [innen](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=hu)
+
+## Hordozhato verzio
+1. Toltsd le a hordozhato verziot [innen](http://keepass.info/download.html)
+2. Csomagold ki a ZIP-et egy pendrivera, vagy amire szeretned.
+3. Kesz
+
+Megjegyzes:
+En szemely szerint meg a kovetkezot csinaltam, mivel se a pendrive-om se a windows particiom nincs titkositva
+(tudom, shame on me, tervben van), ezert a keyfilet meg beraktam egy veracrypt kontenerbe.
+Lepesek:
+1. Toltsd le a veracrypt programot [innen](https://veracrypt.codeplex.com/wikipage?title=Downloads#Title)
+2. Telepitsd
+  * Ha ezt is szeretned hordozhato verzioban a pendriveodon tartani, hiszen maskepp nem fersz hozza a keyfilehoz,
+    akkor a telepites kozben az `Install` opcio helyett valaszd az `Extract` opciot. Add meg az utvonalat es kesz.
+3. Keszits egy containert
+  1. Create an encrypted file container
+  2. Standard veracrypt container
+  3. Add meg a container helyet
+  4. En szemely szerint az AES-t hasznalom, de mindenkinek megvan a maga kedvenc titkositasi algoritmusa, szoval amit akarsz :)
+  5. SHA-512 megfelelo szemely szerint
+  6. Add meg a meretet (mivel csak a keyfile lesz benne par MB-nel tobbre valszeg nem lesz szukseg)
+  7. Jelszo: NE a Keepassodban tarold, hacsak nem tudod kivulrol, mert a Keepass feloldasahoz kelleni fog a keyfile, a keyfile-hoz meg kelleni fogy a Keepass...
+  8. Valassz fajlrendszert (NTFS/FAT windows eseteben) aztan mozgasd az egeredet amig zold nem lesz a csik
+4. Oldd fel a containert a jelszoval
+5. Masold be a containerbe a keyfile-t (a container mint external drive van jelen a gepeden)
+6. Zard be a containert (Unmount)
+7. Masold a container fajlt a pendrive-ra
+
+__FONTOS:__ Ha az USB-rol inditod el a VeraCrypt-et, akkor minden alkalommal kerni fog rendszergazdai jogokat.
+Ha ez nincs megadva neki, akkor nem fog mukodni.
 
 ## KeepassHttp Updater
 Mi kell hozza?
