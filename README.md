@@ -63,9 +63,9 @@ Tudom, ez szar, meg unalmas, de hidd el megéri.
         * A másik, egy kulcs, a jelszó generátor, ha rákattintasz generál neked új jelszavakat.
           Csinálhatsz saját jelszó generátorokat, ahol el tudod menteni a beállítasokat.
           (Példaul ha egy oldal nem enged bizonyos karaktereket, akkor megadhatod, hogy melyek legyenek kizárva stb.)
-        * URL: milyen URL alatt legyen érvényes az acc (hasznos ha használod a KeePassHttp plugin-t)
-        * Expires: megadhatod, hogy meddig legyen érvényes a jelszó
-            * __FONTOS:__ ez nem jelenti azt, hogy a jelszavad törlődne, ha lejárt, csak vizuálisan jelzi neked (pirosan át van húzva), hogy lejárt a jelszó
+    * URL: milyen URL alatt legyen érvényes az acc (hasznos ha használod a KeePassHttp plugin-t)
+    * Expires: megadhatod, hogy meddig legyen érvényes a jelszó
+        * __FONTOS:__ ez nem jelenti azt, hogy a jelszavad törlődne, ha lejárt, csak vizuálisan jelzi neked (pirosan át van húzva), hogy lejárt a jelszó
 3. Miután generáltál új jelszót, változtasd meg a jelszavadat az újra az adott szolgáltatónál (Gmail, Facebook stb.)
 4. Az előnye az egész dolognak, hogy
     1. Nem kell megjegyezned a jelszót
