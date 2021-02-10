@@ -4,6 +4,7 @@
     * Ha más gépén, ahol nincs telepítve KeePass is szeretnéd használni az adatbázisodat,
       akkor töltsd le már most a hordozható verziót is, ha már úgyis ott vagy.
       Részletek lentebb.
+    * Alternatív kliensként beépített KeepassHttp-vel a [KeePassXC](https://keepassxc.org/) klienst ajánlom.
 1. Telepítsd a programot
     * az autoupdate NEM tölt le és telepít semmit sem, csak szól, hogy van új verzió
 3. Indítsd el a frissen telepített KeePass-t
